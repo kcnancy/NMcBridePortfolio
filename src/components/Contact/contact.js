@@ -18,12 +18,12 @@ function Contact() {
   return (
     <Container className="vh-100">
       <Col md={12}>
-        <Row className="h100 justify-content-center align-items-center">
+        <Row className="vh100 justify-content-center align-items-center">
           <Card
-            className=" mb-3 border-info"
+            className=" mb-3 border-info text-center"
             style={{ color: "blue", width: "50rem" }}>
             <Card.Body>
-              <h2 className text="center" color="blue">
+              <h2 className= "text-center" color="blue">
                 Contact Me
               </h2>
               <hr />
