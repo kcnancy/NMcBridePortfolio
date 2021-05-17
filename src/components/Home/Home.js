@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Container className="d-flex vh-75">
-        <Row>
+        <Row className="m-auto align-self-center center-text" >
           <Col md={12}>
             <Card className="mb-3 border-info">
               <Card.Body>
@@ -20,7 +20,7 @@ const Home = () => {
                   alt="profile"
                   height="200"
                   width="150"
-                  className="text=center img-fluid mx-auto"
+                  className="text=center img-fluid"
                   src={nancypic}
                   rounded
                 />

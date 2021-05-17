@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../images/Navigating-with-Nancy-Final.png";
-
+import "./Navbar.css";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 

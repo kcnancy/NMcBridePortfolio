@@ -22,8 +22,6 @@ export default function Portfolio() {
         </div>
 
         <div className="row row-cols-3 row-cols-mb-3 g-4 m-5">
-
-
           <div className="card m-3" style={{ width: "18rem" }}>
             <Card.Title>Dogtionary</Card.Title>
             <Card.Body>
@@ -143,40 +141,39 @@ export default function Portfolio() {
           </div>
 
           <div className="card m-3" style={{ width: "18rem" }}>
-              <Card.Title>another day</Card.Title>
-              <Card.Body>
-                <Image
-                  alt="calendar"
-                  className="img-fluid mx-auto"
-                  src={anotherday}
-                />
+            <Card.Title>another day</Card.Title>
+            <Card.Body>
+              <Image
+                alt="calendar"
+                className="img-fluid mx-auto"
+                src={anotherday}
+              />
 
-                <Card.Text>
-                  <p>
-                    This is a day planner where the user can input tasks or
-                    meetings in the description filed and when the save button
-                    is clicked the entry will be saved in local storage. The
-                    time of day is provided by the moment.js api. This allows
-                    the planner to be updated in color blocks to quickly draw
-                    attention to the current hour which displays in red. The
-                    hours that have passed are grey and the upcoming hours are
-                    green.
-                  </p>
-                </Card.Text>
-              </Card.Body>
-              <Button
-                href="https://kcnancy.github.io/AnotherDayPlanner/"
-                target="_blank"
-              >
-                Demo
-              </Button>
-              <Button
-                href="https://github.com/kcnancy/AnotherDayPlanner"
-                target="_blank"
-              >
-                Repo
-              </Button>
-              </div>
+              <Card.Text>
+                <p>
+                  This is a day planner where the user can input tasks or
+                  meetings in the description filed and when the save button is
+                  clicked the entry will be saved in local storage. The time of
+                  day is provided by the moment.js api. This allows the planner
+                  to be updated in color blocks to quickly draw attention to the
+                  current hour which displays in red. The hours that have passed
+                  are grey and the upcoming hours are green.
+                </p>
+              </Card.Text>
+            </Card.Body>
+            <Button
+              href="https://kcnancy.github.io/AnotherDayPlanner/"
+              target="_blank"
+            >
+              Demo
+            </Button>
+            <Button
+              href="https://github.com/kcnancy/AnotherDayPlanner"
+              target="_blank"
+            >
+              Repo
+            </Button>
+          </div>
 
           <div className="card m-3" style={{ width: "18rem" }}>
             <Card.Title>Note Taker</Card.Title>
@@ -215,11 +212,9 @@ export default function Portfolio() {
             <Button href="https://github.com/kcnancy/NoteTaker" target="_blank">
               Repo
             </Button>
-
-            </div>
           </div>
         </div>
       </div>
-    
+    </div>
   );
 }
