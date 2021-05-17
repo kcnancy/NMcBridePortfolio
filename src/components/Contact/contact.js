@@ -1,29 +1,23 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import {
-  Container,
-  Row,
-  Card,
-  Col,
-  Button,
-  Form,
-  } from "react-bootstrap";
+import { Container, Row, Card, Col, Button, Form } from "react-bootstrap";
+import "./Contact.css";
 
- 
-function Contact() {
+function ContactForm() {
   const [state, handleSubmit] = useForm("xoqpbnpr");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p>Thank you for contacting me!</p>;
   }
   return (
-    <Container className="vh-100">
-      <Col md={12}>
-        <Row className="vh100 justify-content-center align-items-center">
+    <Container className="d-flex vh-100 text-center">
+      <Row className="m-auto align-self-center center-text">
+        <Col md={4}>
           <Card
-            className=" mb-3 border-info text-center"
-            style={{ color: "blue", width: "50rem" }}>
+            className="mb-3 border-info text-center"
+            style={{ color: "blue", width: "50rem" }}
+          >
             <Card.Body>
-              <h2 className= "text-center" color="blue">
+              <h2 className text="center" color="blue">
                 Contact Me
               </h2>
               <hr />
@@ -57,12 +51,13 @@ function Contact() {
               </Form>
             </Card.Body>
           </Card>
-        </Row>
-      </Col>
-
+        </Col>
+      </Row>
     </Container>
   );
 }
 
+function Contact() {
+  return <ContactForm />;
+}
 export default Contact;
-

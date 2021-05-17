@@ -1,0 +1,10 @@
+body {
+    color: blue !important;
+    text-align: center;
+    font-weight: 600;
+    background-color: lightblue;
+
+}
+.Container {
+    background-attachment: fixed;
+}

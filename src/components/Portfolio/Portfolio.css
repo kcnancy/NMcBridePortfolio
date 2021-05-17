@@ -1,7 +1,38 @@
-h1{
-    color: blue
+h1 {
+  color: blue;
 }
 
-.CardColumns{
-    width:md 6
+body {
+  color: blue;
+  border: darkblue;
+  padding: auto;
+  background: lightblue;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 36rem;
+  margin: 4px;
+  display: center;
+  border-radius: 3%;
+  border-color: darkblue;
+  border-width: thick;
+  float: unset;
+}
+
+.col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolioH1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button {
+  border: darkblue;
+  border-width: thick;
 }
