@@ -80,7 +80,7 @@ const Footer = () => {
         <Column>
           <Heading>LinkedIn</Heading>
           <FooterLink
-            href="www.linkedin.com/in/nancy-mcbride-ks"
+            href="https://linkedin.com/in/nancy-mcbride-ks"
             target="_blank"
           >
             <span style={{ marginLeft: "6px" }}>
